@@ -1,3 +1,4 @@
+#THIS CODE SCRAPES ALL THE HOUSES FOR RENT IN LAGOS ON NIGERIANPROPERTYPRO.COM
 #Import all necessary libraries
 import requests
 
