@@ -157,7 +157,7 @@ for row in tables[1].tbody.find_all("tr"):
     togo_data = togo_data.append({"TOGO":gdp}, ignore_index=True)
 
 gdpdata = pd.concat([ben_data, togo_data,bfa_data,cpv_data,gmb_data,gha_data,gue_data,gueb_data,lib_data,mali_data,mta_data,nig_data,ngr_data,sen_data,sln_data], axis=1)
-
+#gdpdata to view the dataframe
 countrykey = {"Key":["BRE","BFA","CPV","GMB","GHA","GUE","GUEB","LIB","MALI","MTA","NIG","NGR","SEN","SLN","TOGO"],"Name":["Benin", "Burkina Faso", "Cape Verde", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Liberia", "Mali", "Mauritania", "Niger", "Nigeria", "Senegal", "Sierra Leone", "Togo"]}
-
+#key to view the country key
 key = pd.DataFrame(countrykey)
